@@ -1,6 +1,7 @@
 package testCasesSuite;
 
 import org.openqa.selenium.WebDriver;
+
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterMethod;
@@ -11,6 +12,8 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
+import com.aventstack.extentreports.model.Log;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import pageObjects.loginPage;
@@ -47,7 +50,7 @@ public class FIrstTestCase extends TestBaseWeb {
 	@Test(groups=("sanity"))
 	void Login() {
 		lp = new loginPage(driver);
-		
+		 Log.info("Opening N11 Website.");
 		lp.navigateTourl(driver, "https://www.nopcommerce.com/en/", "Launch the URL");
 		lp.clickOnLoginLink("Click on login Link");
 		lp.setUserName("pramod3474@gmail.com", "I enter Valid User Name");

@@ -13,6 +13,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 
+import com.aventstack.extentreports.ExtentReports;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -20,6 +21,8 @@ public class TestBaseWeb {
 	public static File file;
 	public static WebDriver driver;
 	private static final String RUN_CONFIG_PROPERTIES = "/environment.properties";
+	public static ExtentReports extent;
+	
 	/*static {
 		LoadProperties.loadRunConfigProps(RUN_CONFIG_PROPERTIES);
 	}*/

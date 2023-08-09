@@ -50,7 +50,6 @@ public class FIrstTestCase extends TestBaseWeb {
 	@Test(groups=("sanity"))
 	void Login() {
 		lp = new loginPage(driver);
-		 Log.info("Opening N11 Website.");
 		lp.navigateTourl(driver, "https://www.nopcommerce.com/en/", "Launch the URL");
 		lp.clickOnLoginLink("Click on login Link");
 		lp.setUserName("pramod3474@gmail.com", "I enter Valid User Name");

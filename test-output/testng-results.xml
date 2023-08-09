@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="5" total="7" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="54205" started-at="2023-08-09T10:45:55 IST" finished-at="2023-08-09T10:46:49 IST">
+    <groups>
+      <group name="regression">
+        <method signature="FIrstTestCase.HomePageValidation()[pri:0, instance:testCasesSuite.FIrstTestCase@63440df3]" name="HomePageValidation" class="testCasesSuite.FIrstTestCase"/>
+        <method signature="FIrstTestCase.Login1()[pri:0, instance:testCasesSuite.FIrstTestCase@63440df3]" name="Login1" class="testCasesSuite.FIrstTestCase"/>
+      </group> <!-- regression -->
+    </groups>
+    <test name="Test" duration-ms="54205" started-at="2023-08-09T10:45:55 IST" finished-at="2023-08-09T10:46:49 IST">
+      <class name="testCasesSuite.FIrstTestCase">
+        <test-method status="PASS" signature="AfterClass()[pri:0, instance:testCasesSuite.FIrstTestCase@63440df3]" name="AfterClass" is-config="true" duration-ms="4" started-at="2023-08-09T10:45:55 IST" finished-at="2023-08-09T10:45:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+        <test-method status="PASS" signature="BrowserSetUp()[pri:0, instance:testCasesSuite.FIrstTestCase@63440df3]" name="BrowserSetUp" is-config="true" duration-ms="3883" started-at="2023-08-09T10:45:55 IST" finished-at="2023-08-09T10:45:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserSetUp -->
+        <test-method status="PASS" signature="HomePageValidation()[pri:0, instance:testCasesSuite.FIrstTestCase@63440df3]" name="HomePageValidation" duration-ms="15994" started-at="2023-08-09T10:45:58 IST" finished-at="2023-08-09T10:46:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageValidation -->
+        <test-method status="PASS" signature="BrowserTearUp()[pri:0, instance:testCasesSuite.FIrstTestCase@63440df3]" name="BrowserTearUp" is-config="true" duration-ms="158" started-at="2023-08-09T10:46:14 IST" finished-at="2023-08-09T10:46:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserTearUp -->
+        <test-method status="PASS" signature="BrowserSetUp()[pri:0, instance:testCasesSuite.FIrstTestCase@63440df3]" name="BrowserSetUp" is-config="true" duration-ms="2326" started-at="2023-08-09T10:46:15 IST" finished-at="2023-08-09T10:46:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserSetUp -->
+        <test-method status="PASS" signature="Login1()[pri:0, instance:testCasesSuite.FIrstTestCase@63440df3]" name="Login1" duration-ms="12781" started-at="2023-08-09T10:46:17 IST" finished-at="2023-08-09T10:46:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login1 -->
+        <test-method status="PASS" signature="BrowserTearUp()[pri:0, instance:testCasesSuite.FIrstTestCase@63440df3]" name="BrowserTearUp" is-config="true" duration-ms="19020" started-at="2023-08-09T10:46:30 IST" finished-at="2023-08-09T10:46:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserTearUp -->
+        <test-method status="PASS" signature="BeofreClass()[pri:0, instance:testCasesSuite.FIrstTestCase@63440df3]" name="BeofreClass" is-config="true" duration-ms="2" started-at="2023-08-09T10:46:49 IST" finished-at="2023-08-09T10:46:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeofreClass -->
+      </class> <!-- testCasesSuite.FIrstTestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
